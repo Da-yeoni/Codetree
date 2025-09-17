@@ -1,9 +1,11 @@
 let [a,b,c]=[5,6,7];
 let temp;
+let demp;
 temp=b;
 b=a;
-c=b;
+demp=c;
 c=temp;
+a=demp;
 console.log(`${a}`);
 console.log(`${b}`);
 console.log(`${c}`);
