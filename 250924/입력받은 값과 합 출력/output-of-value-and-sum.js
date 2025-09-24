@@ -8,4 +8,4 @@ let a = Number(input[0]);
 let b = Number(input[1]);
 
 // 더한 값 출력
-console.log(a + b);
+console.log(a, b, a + b);
